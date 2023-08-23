@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: aqua;
+}
+
+.header-left {
+  display: flex;
+}
+.logo {
+  height: 50px;
+}
+
+.section-one {
+  background-color: red;
+}
+.section-two {
+  background-color: green;
+}
+.section-three {
+  background-color: yellow;
+}
+.section-four {
+  background-color: blue;
+}
+
+.footer {
+  background-color: lightgray;
+}
