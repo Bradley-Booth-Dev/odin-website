@@ -1,4 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
+  font-family: "Roboto", serif;
   display: flex;
   flex-direction: column;
 }
@@ -8,19 +16,89 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background-color: aqua;
+  background-color: #1f2937;
+  color: white;
 }
 
 .header-left {
   display: flex;
-}
-.logo {
-  height: 50px;
+  font-size: 30px;
 }
 
-.section-one {
-  background-color: red;
+.header-right {
+  display: flex;
 }
+
+.header-left,
+.header-right {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+}
+
+.header-links {
+  font-size: 18px;
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  gap: 10px;
+}
+
+.section-1-wrapper {
+  background-color: #1f2937;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-1 {
+  display: flex;
+}
+
+.content-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-items: flex-start;
+  padding: 100px;
+  max-width: 500px;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: bolder;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.p-first {
+  font-size: 18px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.signup-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
 .section-two {
   background-color: green;
 }
@@ -33,4 +111,20 @@ body {
 
 .footer {
   background-color: lightgray;
+  margin-top: auto;
+}
+
+img {
+  margin: 50px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
