@@ -25,10 +25,6 @@ body {
   font-size: 30px;
 }
 
-.header-right {
-  display: flex;
-}
-
 .header-left,
 .header-right {
   width: 33%;
@@ -99,9 +95,21 @@ body {
   transition: background-color 0.3s ease;
 }
 
-.section-two {
-  background-color: green;
+.section-two-wrapper {
+  background-color: white;
+  display: flex;
 }
+
+.title-s2 {
+  font-size: 32px;
+  font-weight: bolder;
+  color: black;
+  margin-bottom: 10px;
+  display: flex;
+  text-align: center;
+  padding: 12px;
+}
+
 .section-three {
   background-color: yellow;
 }
@@ -110,8 +118,9 @@ body {
 }
 
 .footer {
-  background-color: lightgray;
-  margin-top: auto;
+  background-color: #1f2937;
+  color: white;
+  text-align: center;
 }
 
 img {
