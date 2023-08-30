@@ -142,8 +142,29 @@ body {
 
 .section-three-wrapper {
   background-color: lightgrey;
-  display: flex;
   height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-three-content {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: 300;
+  padding: 20px;
+  font-style: italic;
+}
+
+.quote-name {
+  font-weight: 900;
+  align-self: flex-end;
+  font-size: 18px;
 }
 .section-four {
   background-color: blue;
